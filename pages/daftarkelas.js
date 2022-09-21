@@ -23,9 +23,10 @@ export default function DaftarKelas() {
           <div>
             {list === "ac" ? (
               <>
-                {me.map((a) => {
+                {me.map((a, i) => {
                   return (
                     <div
+                      key={i}
                       className={`bg-white border ${
                         a.name !== "-" && "bg-yellow-500 text-orange-800"
                       }`}
@@ -38,8 +39,12 @@ export default function DaftarKelas() {
               </>
             ) : (
               <>
-                {other.map((a) => {
-                  return <div className="bg-white border">{a.name}</div>;
+                {other.map((a, id) => {
+                  return (
+                    <div key={id} className="bg-white border">
+                      {a.name}
+                    </div>
+                  );
                 })}
               </>
             )}

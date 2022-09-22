@@ -17,7 +17,10 @@ export default function DaftarKelas() {
           </p>
           <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-blue-800 to-orange-800">
             Coba aja kaka switch ke masing masing kelas malam, terus klik nama
-            aku kalo ketemu
+            aku kalo ketemu.
+          </p>
+          <p className="text-1xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-green-800 to-green-500">
+            Bisa di geser kok
           </p>
           <Kelas list={list} setList={setList} />
           <div>

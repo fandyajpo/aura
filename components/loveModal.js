@@ -37,9 +37,18 @@ const SuccessModal = ({ modal, setModal }) => {
           <div className="flex flex-col gap-y-6 items-center py-8 px-2">
             <p className="text-3xl text-pink-500 font-bold">Kak</p>
             <p className="text-md font-bold text-pink-500">
-              Kaka imut bangetz, aku suka, jng lupa jaga aurat kak. aku buat
-              surat cinta ini langsung kepikiran kasih ke kaka, soalnya kaka
-              baik banget waktu di awal, kaka kocak juga.
+              Nah, ini kelas ku kak, sekali lagi makasih banyak ya diawal udh
+              respon baik waktu aku ga tau kelas, kirain bakal di marahin karena
+              ga liat group. Jujur Kaka imut bangetzz, aku suka kakak, jng lupa
+              jaga aurat kak.
+              <br />
+              <br />
+              aku buat surat ini langsung kepikiran untuk kasih ke kaka, soalnya
+              kaka baik banget waktu di awal, kaka kocak juga. Salam Cinta buat
+              kita semua, eitts maksudnya buat kita berdua aja.
+              <br />
+              <br />
+              Aku masih inget banget moment awal masuk kampus
             </p>
             <button
               className="bg-pink-500 text-white px-6 py-2 rounded-md font-bold"
@@ -56,7 +65,7 @@ const SuccessModal = ({ modal, setModal }) => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className={`w-6 h-6 fixed text-pink-500 duration-1000 ${
+          className={`w-6 h-6 fixed animate-ping text-pink-500 duration-1000 ${
             modal ? "top-8 left-8" : "top-2"
           }`}
         >

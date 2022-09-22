@@ -13,7 +13,7 @@ export default function DaftarKelas() {
       <div className="p-2">
         <div className="flex flex-col gap-y-4 ">
           <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-violet-500 to-red-500">
-            Tebak aku ada di kelas apa, nanti kak Aura bakal tau
+            Tebak aku ada di kelas apa, nanti kaka bakal tau
           </p>
           <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-blue-800 to-orange-800">
             Coba aja kaka switch ke masing masing kelas malam, terus klik nama

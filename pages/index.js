@@ -5,11 +5,15 @@ export default function Home() {
     <div className="p-2">
       <div className="flex flex-col gap-y-4">
         <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-violet-500 to-red-500">
-          Kak Aura inget ga?
+          Aku lupa nama kaka, kalo ga salah Ka Aura ya?
+        </p>
+        <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-violet-500 to-red-500">
+          Aku sengaja buat ini special buat kakak
         </p>
         <p className="text-2xl text-gray-800 font-bold bg-blue-200 p-2 rounded-md">
           Waktu itu ada maba yang ga tau dia kelas apa, terus dia nanya ke kaka
-          di gedung 1, lantai 2 kalo gasalah, yang gedungnya deket parkiran
+          di gedung 5, lantai 2, kalo gasalah yang gedungnya deket parkiran
+          belakang
         </p>
         <p className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-l from-blue-800 to-orange-800">
           Makasi ya kak udah mau ngasih tau aku kelas ku, ternyata aku kelas...
@@ -21,7 +25,7 @@ export default function Home() {
           <div className="p-8 bg-pink-500 w-44 h-16 flex items-center justify-center rounded-full">
             <Link href={"daftarkelas"}>
               <a className="flex items-center">
-                <p className="font-bold text-pink-200">Get Started</p>
+                <p className="font-bold text-pink-200">Ayok Kak tekan aku</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

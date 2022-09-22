@@ -48,7 +48,7 @@ const SuccessModal = ({ modal, setModal }) => {
               kita semua, eitts maksudnya buat kita berdua aja.
               <br />
               <br />
-              Aku masih inget banget moment awal masuk kampus
+              Aku masih inget banget moment awal masuk kampus. muehehehe
             </p>
             <button
               className="bg-pink-500 text-white px-6 py-2 rounded-md font-bold"
